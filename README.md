@@ -8,7 +8,7 @@ Project created to know and play with GraphQL. It implement a server with [Graph
 Go to [localhost:4000](http://localhost:4000)  
 
 **Important**  
-Before start the server, create a MongoDB database locally or at [mLab](http://mlab.com) and put the connection URL into '/db/connection.js' file. 
+Before start the server, create a MongoDB database locally or at [mLab](http://mlab.com) and put the connection URL into `/db/connection.js` file. 
 
 ## GraphQL schema, queries and mutations
 ```
