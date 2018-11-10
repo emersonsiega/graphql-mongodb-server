@@ -12,21 +12,21 @@ Before start the server, create a MongoDB database locally or at [mLab](http://m
 
 ## GraphQL schema, queries and mutations
 ```
-    type User {
-        id: String!
-        name: String!
-        email: String!
-    }
+type User {
+    id: String!
+    name: String!
+    email: String!
+}
 
-    type Query {
-        user( id: String! ): User
-        users: [User]
-        usersCount: Int!
-    }
+type Query {
+    user( id: String! ): User
+    users: [User]
+    usersCount: Int!
+}
 
-    type Mutation {
-        addUser( id: String!, name: String!, email: String! ): User
-        editUser( id: String, name: String, email: String ): User
-        deleteUser( id: String, name: String, email: String ): User
-    }
+type Mutation {
+    addUser( id: String!, name: String!, email: String! ): User
+    editUser( id: String, name: String, email: String ): User
+    deleteUser( id: String, name: String, email: String ): User
+}
 ```
